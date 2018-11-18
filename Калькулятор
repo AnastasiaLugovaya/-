@@ -1,0 +1,36 @@
+t=input()
+x=input()
+print('')
+def umn(t,x):
+    return t*x
+print(t*x)
+print('')
+def summ(t,x):
+    return t+x
+print(t+x)
+print('')
+def raz(t,x):
+    return t-x
+print(t-x)
+print('')
+def deli(t,x):
+    return t/x
+print(t/x)
+print('')
+def cim(t,x):
+    return t**x
+print(t**x)
+print('')
+def nod(t,x):
+   while t!=x: 
+      if (t>x): 
+       return t-x
+       print (t-x)
+      else:
+       return x-t
+       print (x-t)             
+     
+
+
+    
+    
